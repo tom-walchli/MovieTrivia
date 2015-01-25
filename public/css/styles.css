@@ -6,6 +6,15 @@
 	width:  100;
 	color		: blue
 }
-
+a:hover {
+	opacity: 0.8;
+	border-color: red;
+	border-width: 10
+}
+.poster img{
+	height: 266px;
+	width: 180px;
+	padding: 5
+}
 
 

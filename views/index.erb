@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title>Movie Trivia</title>
+	<link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+	<% if session[:score] %>
+		<h3>Score: <%=session[:score]%></h3>
+	<% end %>
+	<p>
+		<h3>Choose a category of movies (funny, evil, etc.):</h3>
+	</p>
+	<p>
+		<form action="/search">
+			<input type="text" name="pattern" placeholder="movie search keyword"/>
+			<input type="submit" value="Play!"/>
+		</form>
+	</p>
+</body>
+</home>
